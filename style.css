@@ -555,9 +555,19 @@ header {
     .main-text{
         line-height: 1;
     }
+
 }
 
+
+
 @media screen and (max-width: 600px) {
+    .main-section{
+
+        background-image: url("Other/photo/oher_photo/main_photo.webp");
+
+    }
+
+
     .main-img{
         display: none;
     }
@@ -566,9 +576,12 @@ header {
         font-size: 500;
         font-size: 40px;
 
+        margin-bottom: 100px;
+
     }
     .main-text{
-        line-height: 1;
+        display: none;
+        /* line-height: 1; */
     }
 }
 
@@ -597,8 +610,20 @@ header {
     }
 
     .border-text{
-        font-size: 16px;
-        font-weight: 300;
+        display: none;
+    }
+
+    .shop-buttom{
+        width: 160px;
+    }
+
+    .img-shop {
+        width: 280px;
+
+    }
+
+    .filter-buttom{
+        width: 60px;
     }
 
 }
